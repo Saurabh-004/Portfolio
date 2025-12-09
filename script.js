@@ -9,7 +9,7 @@ const downloadButtons = document.querySelectorAll(".btn");
 
 // Function resume downloded 
 function downloadResume() {
-    const filePath = "Saurabh.pdf.pdf"; // Resume file path
+    const filePath = "resume_AI.ML.pdf"; // Resume file path
     const a = document.createElement('a');
     a.href = filePath;
     a.download = "Saurabh'sresume.pdf"; // Downloaded file ka naam
@@ -28,7 +28,7 @@ downloadButtons.forEach(button => {
 //hire buttom function 
 
 function openEmail() {
-    // आपके email address को यहाँ पर define करें
+   
     const receiverEmail = 'vishwakarmasaurabh2004@gmail.com';
     const subject = 'Hiring Inquiry'; // Optional subject
     const body = 'Hello, I am interested in your services.'; // Optional body text
@@ -74,7 +74,7 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
 let loopCount = 0; // Track how many loops are completed
 
 const typed = new Typed(".typedText", {
-    strings: ["Student", "ML Engineer"],
+    strings: ["ML Engineer","Data Scientist","AI Engineer"],
     typeSpeed: 100,
     backSpeed: 80,
     backDelay: 2000,
@@ -136,3 +136,4 @@ function scrollActive() {
 }
 
 window.addEventListener('scroll', scrollActive);
+
