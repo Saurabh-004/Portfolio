@@ -26,9 +26,10 @@ downloadBtns.forEach(btn => {
     if (btn.textContent.toLowerCase().includes("download")) {
         btn.addEventListener("click", () => {
             const a = document.createElement("a");
-            a.href = "resume_AI.ML.pdf";
+            a.href = "Saurabh's_resume.pdf";
             a.download = "Saurabh_Vishwakarma_Resume.pdf";
             a.click();
         });
     }
 });
+
