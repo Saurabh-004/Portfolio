@@ -147,91 +147,17 @@
   .delay-3 { animation-delay: 0.45s; opacity: 0; }
   .delay-4 { animation-delay: 0.6s; opacity: 0; }
 
-  @media (max-width: 768px) {
+ @media (max-width: 768px) {
+    nav { padding: 1rem 1.5rem; }
+    .nav-links { display: none; }
+    #home, section { padding: 5rem 1.5rem 3rem; }
+    .hero-grid, #about .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+    .hero-visual { order: -1; }
+    .avatar-ring { width: 200px; height: 200px; }
+    .avatar-inner { width: 160px; height: 160px; }
+    footer { flex-direction: column; gap: 0.5rem; text-align: center; padding: 2rem 1.5rem; }
+  
 
-  /* GENERAL */
-  body {
-    font-size: 15px;
-  }
-
-  section {
-    padding: 4rem 1.2rem 2.5rem;
-  }
-
-  /* HERO */
-  .hero-grid {
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 2.2rem;
-  }
-
-  .hero-sub {
-    font-size: 14px;
-    margin: 0 auto 2rem;
-  }
-
-  .hero-btns {
-    justify-content: center;
-  }
-
-  .btn-primary,
-  .btn-outline,
-  .btn-cv {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .stats-row {
-    justify-content: center;
-    gap: 1.5rem;
-  }
-
-  .stat {
-    align-items: center;
-  }
-
-  /* AVATAR */
-  .hero-visual {
-    margin-bottom: 1rem;
-  }
-
-  /* ABOUT */
-  #about .about-grid {
-    text-align: center;
-  }
-
-  .about-text p {
-    text-align: center;
-  }
-
-  .edu-card {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  /* SKILLS */
-  .skill-tags {
-    justify-content: center;
-  }
-
-  /* PROJECTS */
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-
-  /* CONTACT */
-  .contact-card {
-    padding: 1.5rem;
-  }
-
-  .contact-row {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
 
 }
 </style>
