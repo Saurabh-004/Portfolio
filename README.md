@@ -37,7 +37,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 Feel free to reach out to me via:
 
-- **Email**: [vishwakarmasaurabh2004@gmail.com](mailto:vishwakarmasaurabh2004@gmail.com)
+- **Email**: [sv9327545@gmail.com](mailto:sv9327545@gmail.com)
 - **GitHub**: [Saurabh-004](https://github.com/Saurabh-004)
 
 ---
